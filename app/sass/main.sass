@@ -1,0 +1,274 @@
+$font-stack: Lato, sans-serif
+$primary-color: #7D8097
+$gray-color: #EDEFF6
+$purple-color: #5B538E
+$blue-color: #1A86FD
+$green-color: #55B852
+
+th, td
+	border-bottom: 0.5px solid #E5E5E5
+	height: 50px
+	font-size: 14px
+	border-bottom: 0
+
+th
+	color: #989898
+	font-weight: 600
+
+td
+	color: #373737
+
+button.btn
+	padding: 6px 25px
+	margin: 10px 4px !important
+	background-color: #FFFFFF
+	border: 2px solid $gray-color
+	color: #373737
+	text-align: center
+	text-decoration: none
+	display: inline-block
+	font-size: 12px
+	cursor: pointer
+	border-radius: 0
+	font-weight: 500
+	transition: all .1s ease-in
+	&:hover
+		background: $green-color
+		color: #fff
+		border: 2px solid $green-color
+
+button.btn__add-app
+	background-color: $green-color
+	color: #ffffff
+
+
+
+.section1, .section2, .section3
+	background: #fff
+	margin-top: 15px
+	margin-bottom: 15px
+	min-height: 340px
+
+.sections__title
+	margin: 0
+	vertical-align: super
+	display: inline-block
+	font-weight: 500
+	font-size: 14px
+	padding-top: 5px
+	padding-bottom: 5px
+
+.row-mg0
+	margin-left: 0!important
+	margin-right: 0 !important
+
+.col-pd-l7
+	padding-left: 7px !important
+
+.col-pd-r7
+	padding-right: 7px !important
+
+
+/***************************************/
+/********   Sidebar start  *************/
+/***************************************/
+
+.sidebar
+	padding-left: 0 !important
+	padding-right: 0 !important
+	.sidebar__list
+		padding: 0
+		margin: 0
+		list-style: none
+		.sidebar__menu
+			padding: 25px 10px
+			border-left: 4px solid #fff
+			cursor: pointer
+			-webkit-transition: all .5s ease
+  			transition: all .5s ease
+			&:hover
+					background-color: #F0EEFC
+			p
+				display: inline-block
+				padding-right: 20px
+				margin: 0
+				img
+					width: 25px
+					height: 25px
+			.sidebar__menu-link
+				text-decoration: none
+				color: $primary-color
+		.sidebar__menu-active
+			border-left: 4px solid $purple-color
+			background-color: #F0EEFC
+
+
+/***************************************/
+/********   Sidebar end  ***************/
+/***************************************/
+
+
+
+//header of 'Form' and "Tables"
+
+.sections
+	background: $gray-color
+	padding: 35px 0
+	.application__name
+		margin: 0
+		padding: 10px 10px 10px 10px
+		display: inline-block
+		color: #282828
+		font-size: 24px
+
+
+/***************************************/
+/********   Form start  ****************/
+/***************************************/
+
+form
+	padding: 20px
+	width: 80%
+	label
+		text-align: left
+		display: block !important
+	div
+		margin-top: 10px
+		margin-bottom: 10px
+
+.form-inline
+	display: inline-block !important
+	width: 49%
+.form-inline__phone
+	margin-right: 1%
+
+input
+	border: 2px solid #C4C4C4
+	padding: 7px 20px
+	width: 100%
+	
+.form-submit
+	text-align: left
+	input
+		display: inline-block
+		width: auto
+		background: $purple-color
+		color: #fff
+		border-radius: 0
+		font-weight: 500
+		padding: 10px 40px
+		border: 2px solid $purple-color
+		transition: all .1s ease-in
+		&:hover
+			border: 2px solid $gray-color
+			background: #fff
+			color: #373737
+
+
+
+/***************************************/
+/********   Form end    ****************/
+/***************************************/
+
+
+
+
+
+
+
+/***************************************/
+/******** Tables start  ****************/
+/***************************************/
+
+
+
+// headers of tables 
+
+.sections__header
+	padding-right: 15px
+	padding-left: 15px
+	.s-header__left
+		display: inline-block
+		text-align: left
+		width: 49%
+		padding: 10px 4px
+		.s-icon
+			font-size: 32px
+			color: #C4C4C4
+			display: inline-block
+		
+	.s-header__right
+		text-align: right
+		display: inline-block
+		width: 49%
+		vertical-align: top
+
+
+//tables 
+
+table
+	width: 100%
+	tr
+		border-top: 1px solid #E9EAF2 
+		td,
+		th
+			padding-left: 20px !important
+			padding-right: 20px !important
+		td.td__name
+			color: $blue-color
+	tr.tr__title
+		text-transform: uppercase
+
+table.section3__apps
+	tr
+		&:not(.tr__title)
+			&:hover
+				cursor: pointer
+				background: #F2F3F9
+				.td__icons
+					visibility: visible
+		.td__icons
+			font-size: 16px
+			cursor: pointer
+			visibility: hidden
+
+.edit-icon
+	color: $blue-color
+.delete-icon
+	color: #EC4F4F
+
+
+/***************************************/
+/******** Tables end   *****************/
+/***************************************/
+.owl-carousel
+	position: relative
+.owl-nav
+	text-align: center
+	button
+		border: 1px solid $gray-color !important
+		margin: 15px 60px
+		span
+			vertical-align: super
+			padding: 0 13px
+			font-size: 26px
+			line-height: .8
+.section3
+	.owl-dots
+		position: absolute
+		bottom: 20px
+		left: 50%
+		margin-left: -30px
+		button.owl-dot
+			margin: 0px
+			padding: 2px 11px !important
+		button.active
+			color: $blue-color
+
+
+
+
+
+
+
+

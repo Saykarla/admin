@@ -1,0 +1,134 @@
+$font-stack: Lato, sans-serif
+$primary-color: #7D8097
+$background-color: #FFFFFF
+$purple-color: #5B538E
+
+body, p, a
+	font-size: 14px
+
+a
+	text-decoration: none
+
+header
+	background-color: $background-color
+	font: $font-stack
+
+
+/***************************************/
+/********   Logo start  ****************/
+/***************************************/
+
+.header__logo
+	padding: 20px 0 10px 20px
+	margin: 0
+	list-style: none
+	.header__logo-link
+		text-decoration: none
+		color: #50595E
+		.header__logo-img
+			width: 40px
+			height: 40px
+		.header__logo-name
+			margin: 0
+			padding-left: 10px
+			display: inline-block
+			vertical-align: middle
+			font-size: 12px
+			line-height: 12px
+
+
+/***************************************/
+/********   Logo end   *****************/
+/***************************************/
+
+
+
+
+
+/***************************************/
+/********   Navigation start  **********/
+/***************************************/
+
+.topnav__list
+	margin: 0
+	padding: 0
+	list-style: none
+	.topnav__menu
+		padding: 5px 40px
+		display: inline-block
+		.topnav__menu-link
+			position: relative
+			text-decoration: none
+			color: $primary-color		
+	.topnav__menu-active
+		.topnav__menu-link
+			color: $purple-color
+			&::after
+				content: ''
+				width: 80%
+				bottom: -26px
+				left: 10%
+				right: 10%
+				position: absolute
+				height: 4px
+				background: $purple-color
+
+.topnav__menu-link
+	&:hover
+		&::after
+			content: ''
+			width: 80%
+			bottom: -26px
+			left: 10%
+			right: 10%
+			position: absolute
+			height: 4px
+			background-color: rgba(91,83,142,0.2)
+
+/***************************************/
+/********   Navigation end  ************/
+/***************************************/
+
+
+
+
+
+/***************************************/
+/********   Usermenu start *************/
+/***************************************/
+
+.usermenu__name, .usermenu__dropdown
+	display: inline-block
+
+.usermenu__name
+	margin: 0
+	padding: 0px 10px
+	font-size: 14px
+	color: $primary-color
+	vertical-align: super
+
+.usermenu__dropdown
+	i
+		&:nth-child(1)
+			padding: 0px
+			font-size: 32px
+			color: $primary-color
+		&:nth-child(2)
+			padding: 0px 10px 0px 5px
+			font-size: 14px
+			color: $primary-color
+			vertical-align: super
+
+	
+/***************************************/
+/********   Usermenu end   *************/
+/***************************************/
+
+
+
+
+
+
+
+
+

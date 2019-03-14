@@ -1,0 +1,332 @@
+
+body, p, a {
+  font-size: 14px; }
+
+a {
+  text-decoration: none; }
+
+header {
+  background-color: #FFFFFF;
+  font: Lato, sans-serif; }
+
+/***************************************/
+/********   Logo start  ****************/
+/***************************************/
+.header__logo {
+  padding: 20px 0 10px 20px;
+  margin: 0;
+  list-style: none; }
+  .header__logo .header__logo-link {
+    text-decoration: none;
+    color: #50595E; }
+    .header__logo .header__logo-link .header__logo-img {
+      width: 40px;
+      height: 40px; }
+    .header__logo .header__logo-link .header__logo-name {
+      margin: 0;
+      padding-left: 10px;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 12px;
+      line-height: 12px; }
+
+/***************************************/
+/********   Logo end   *****************/
+/***************************************/
+/***************************************/
+/********   Navigation start  **********/
+/***************************************/
+.topnav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .topnav__list .topnav__menu {
+    padding: 5px 40px;
+    display: inline-block; }
+    .topnav__list .topnav__menu .topnav__menu-link {
+      position: relative;
+      text-decoration: none;
+      color: #7D8097; }
+  .topnav__list .topnav__menu-active .topnav__menu-link {
+    color: #5B538E; }
+    .topnav__list .topnav__menu-active .topnav__menu-link::after {
+      content: '';
+      width: 80%;
+      bottom: -26px;
+      left: 10%;
+      right: 10%;
+      position: absolute;
+      height: 4px;
+      background: #5B538E; }
+
+.topnav__menu-link:hover::after {
+  content: '';
+  width: 80%;
+  bottom: -26px;
+  left: 10%;
+  right: 10%;
+  position: absolute;
+  height: 4px;
+  background-color: rgba(91, 83, 142, 0.2); }
+
+/***************************************/
+/********   Navigation end  ************/
+/***************************************/
+/***************************************/
+/********   Usermenu start *************/
+/***************************************/
+.usermenu__name, .usermenu__dropdown {
+  display: inline-block; }
+
+.usermenu__name {
+  margin: 0;
+  padding: 0px 10px;
+  font-size: 14px;
+  color: #7D8097;
+  vertical-align: super; }
+
+.usermenu__dropdown i:nth-child(1) {
+  padding: 0px;
+  font-size: 32px;
+  color: #7D8097; }
+
+.usermenu__dropdown i:nth-child(2) {
+  padding: 0px 10px 0px 5px;
+  font-size: 14px;
+  color: #7D8097;
+  vertical-align: super; }
+
+/***************************************/
+/********   Usermenu end   *************/
+/***************************************/
+
+th, td {
+  border-bottom: 0.5px solid #E5E5E5;
+  height: 50px;
+  font-size: 14px;
+  border-bottom: 0; }
+
+th {
+  color: #989898;
+  font-weight: 600; }
+
+td {
+  color: #373737; }
+
+button.btn {
+  padding: 6px 25px;
+  margin: 10px 4px !important;
+  background-color: #FFFFFF;
+  border: 2px solid #EDEFF6;
+  color: #373737;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 0;
+  font-weight: 500;
+  transition: all .1s ease-in; }
+  button.btn:hover {
+    background: #55B852;
+    color: #fff;
+    border: 2px solid #55B852; }
+
+button.btn__add-app {
+  background-color: #55B852;
+  color: #ffffff; }
+
+.section1, .section2, .section3 {
+  background: #fff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  min-height: 340px; }
+
+.sections__title {
+  margin: 0;
+  vertical-align: super;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.row-mg0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+.col-pd-l7 {
+  padding-left: 7px !important; }
+
+.col-pd-r7 {
+  padding-right: 7px !important; }
+
+/***************************************/
+/********   Sidebar start  *************/
+/***************************************/
+.sidebar {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+  .sidebar .sidebar__list {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    .sidebar .sidebar__list .sidebar__menu {
+      padding: 25px 10px;
+      border-left: 4px solid #fff;
+      cursor: pointer;
+      -webkit-transition: all 0.5s ease;
+        -webkit-transition-transition: all .5s ease; }
+      .sidebar .sidebar__list .sidebar__menu:hover {
+        background-color: #F0EEFC; }
+      .sidebar .sidebar__list .sidebar__menu p {
+        display: inline-block;
+        padding-right: 20px;
+        margin: 0; }
+        .sidebar .sidebar__list .sidebar__menu p img {
+          width: 25px;
+          height: 25px; }
+      .sidebar .sidebar__list .sidebar__menu .sidebar__menu-link {
+        text-decoration: none;
+        color: #7D8097; }
+    .sidebar .sidebar__list .sidebar__menu-active {
+      border-left: 4px solid #5B538E;
+      background-color: #F0EEFC; }
+
+/***************************************/
+/********   Sidebar end  ***************/
+/***************************************/
+.sections {
+  background: #EDEFF6;
+  padding: 35px 0; }
+  .sections .application__name {
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    color: #282828;
+    font-size: 24px; }
+
+/***************************************/
+/********   Form start  ****************/
+/***************************************/
+form {
+  padding: 20px;
+  width: 80%; }
+  form label {
+    text-align: left;
+    display: block !important; }
+  form div {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+.form-inline {
+  display: inline-block !important;
+  width: 49%; }
+
+.form-inline__phone {
+  margin-right: 1%; }
+
+input {
+  border: 2px solid #C4C4C4;
+  padding: 7px 20px;
+  width: 100%; }
+
+.form-submit {
+  text-align: left; }
+  .form-submit input {
+    display: inline-block;
+    width: auto;
+    background: #5B538E;
+    color: #fff;
+    border-radius: 0;
+    font-weight: 500;
+    padding: 10px 40px;
+    border: 2px solid #5B538E;
+    transition: all .1s ease-in; }
+    .form-submit input:hover {
+      border: 2px solid #EDEFF6;
+      background: #fff;
+      color: #373737; }
+
+/***************************************/
+/********   Form end    ****************/
+/***************************************/
+/***************************************/
+/******** Tables start  ****************/
+/***************************************/
+.sections__header {
+  padding-right: 15px;
+  padding-left: 15px; }
+  .sections__header .s-header__left {
+    display: inline-block;
+    text-align: left;
+    width: 49%;
+    padding: 10px 4px; }
+    .sections__header .s-header__left .s-icon {
+      font-size: 32px;
+      color: #C4C4C4;
+      display: inline-block; }
+  .sections__header .s-header__right {
+    text-align: right;
+    display: inline-block;
+    width: 49%;
+    vertical-align: top; }
+
+table {
+  width: 100%; }
+  table tr {
+    border-top: 1px solid #E9EAF2; }
+    table tr td,
+    table tr th {
+      padding-left: 20px !important;
+      padding-right: 20px !important; }
+    table tr td.td__name {
+      color: #1A86FD; }
+  table tr.tr__title {
+    text-transform: uppercase; }
+
+table.section3__apps tr:not(.tr__title):hover {
+  cursor: pointer;
+  background: #F2F3F9; }
+  table.section3__apps tr:not(.tr__title):hover .td__icons {
+    visibility: visible; }
+
+table.section3__apps tr .td__icons {
+  font-size: 16px;
+  cursor: pointer;
+  visibility: hidden; }
+
+.edit-icon {
+  color: #1A86FD; }
+
+.delete-icon {
+  color: #EC4F4F; }
+
+/***************************************/
+/******** Tables end   *****************/
+/***************************************/
+.owl-carousel {
+  position: relative; }
+
+.owl-nav {
+  text-align: center; }
+  .owl-nav button {
+    border: 1px solid #EDEFF6 !important;
+    margin: 15px 60px; }
+    .owl-nav button span {
+      vertical-align: super;
+      padding: 0 13px;
+      font-size: 26px;
+      line-height: .8; }
+
+.section3 .owl-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -30px; }
+  .section3 .owl-dots button.owl-dot {
+    margin: 0px;
+    padding: 2px 11px !important; }
+  .section3 .owl-dots button.active {
+    color: #1A86FD; }
+

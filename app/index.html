@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Internship project</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	
+
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-2">
+					<div class="header__logo">
+						<a href="index.html" class="header__logo-link">
+							<img class="header__logo-img" src="img/logo.png" alt="logo">
+							<p class="header__logo-name"><b>Internship<br>project</b></p>
+						</a>
+					</div>
+				</div>
+				<div class="col-8">
+					<nav class="topnav">
+						<ul class="topnav__list">
+							<li class="topnav__menu topnav__menu-active">
+								<a href="index.html" class="topnav__menu-link">Infrastructure</a>
+							</li>
+							<li class="topnav__menu">
+								<a href="humanresources.html" class="topnav__menu-link">Human resources</a>
+							</li>
+							<li class="topnav__menu">
+								<a href="administration.html" class="topnav__menu-link">Administration</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-2">
+					<div class="usermenu">
+						<p class="usermenu__name">User Name</p>
+						<div class="usermenu__dropdown">
+							<i class="fas fa-user-circle"></i>
+							<i class="fas fa-caret-down"></i>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-2 align-middle sidebar">
+					<div >
+						<ul class="sidebar__list">
+							<li class="sidebar__menu sidebar__menu-active">
+								<p><img src="img/projects.png" alt="projects"></p>
+								<a href="index.html" class="sidebar__menu-link">Projects</a>
+							</li>
+							<li class="sidebar__menu">
+								<p><img src="img/applications.svg" alt="applications"></p>
+								<a href="#" class="sidebar__menu-link">Application</a>
+							</li>
+							<li class="sidebar__menu">
+								<p><img src="img/servicess.svg" alt="services"></p>
+								<a href="#" class="sidebar__menu-link">Services</a>
+							</li>
+							<li class="sidebar__menu">
+								<p><img src="img/devices.svg" alt="devices"></p>
+								<a href="#" class="sidebar__menu-link">Company devices</a>
+							</li>
+							<li class="sidebar__menu">
+								<p><img src="img/devices_relationships.svg" alt="devices_relationships"></p>
+								<a href="#" class="sidebar__menu-link">Devices relationships</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-10 sections">
+					<div class="row">
+						<div class="col-9">
+							<h1 class="application__name">[Application name]</h1>
+						</div>
+						<div class="col-3">
+							<button class="btn"><b>Edit app</b></button>
+							<button class="btn btn__add-app">+ Add app</button>
+						</div>
+					</div>
+					<div class="row row-mg0">
+						<div class="col-6 col-pd-r7">
+							<div class="section1">	
+								<form action="#" method="post">
+									<div>
+										<br>
+										<label for="email" class="sections__title">Email</label>
+										<input type="text" id="email" name="email" placeholder="someone@example.com">
+									</div>
+									<div class="form-inline form-inline__phone">
+										<label for="phone" class="sections__title">Phone number</label>
+										<input type="number" value="" name="phone">
+									</div>
+									<div class="form-inline">
+										<label for="date" class="sections__title">Date of birth (focused)</label>
+										<input type="date" value="" name="date">
+									</div>
+									<div class="form-submit">
+										<input type="submit" value="Submit" class="btn">
+									</div>
+								</form>
+							</div>	
+						</div>
+						<div class="col-6 col-pd-l7">
+							<div class="section2">	
+								<div class="sections__header">
+									<div>
+										<div class="s-header__left">
+											<i class="fas fa-circle s-icon"></i>
+											<p class="sections__title">People</p>
+										</div>
+									
+										<div class="s-header__right">
+											<button class="btn"><b>Add</b></button>
+										</div>
+									</div>
+									
+								</div>
+								<table class="table">
+									<tr class="tr-title">
+										<th>FULL NAME</th>
+										<th>ROLE</th>
+									</tr>
+									<tr>
+										<td class="td__name">Test Name</td>
+										<td>Frontend designer</td>
+									</tr>
+									<tr>
+										<td class="td__name">Test Name</td>
+										<td>Project lead</td>
+									</tr>
+									<tr>
+										<td class="td__name">Test Name</td>
+										<td>Java developer</td>
+									</tr>
+									<tr>
+										<td class="td__name">Test Name</td>
+										<td>Java developer</td>
+									</tr>
+								</table>
+							</div>
+						</div>	
+					</div>
+					<div class="row row-mg0">
+						<div class="col">
+							<div class="section3">
+								<div class="sections__header">
+									<div class="s-header__left">
+										<i class="fas fa-circle s-icon"></i>
+										<p class="sections__title">Applications</p>
+									</div>
+									<div class="s-header__right">
+										<button class="btn"><b>Add</b></button>
+									</div>
+								</div>	
+								<div class="owl-carousel">
+									<div>	
+										<table class="section3__apps table">
+											<tr class="tr__title">
+												<th>Heading</th>
+												<th>Heading</th>
+												<th>Heading</th>
+												<th>Heading</th>
+												<th></th>
+												<th></th>
+											</tr>
+											<tr>
+												<td class="td__name">Lorem ipsum</td>
+												<td>dolor sit amet</td>
+												<td>consectetur</td>
+												<td>adipiscing elit</td>
+												<td><span class="td__icons edit-icon"><i class="fas fa-pen pen-icon"></i><span></td>
+												<td><span class="td__icons delete-icon"><i class="fas fa-trash-alt trash-icon"></i><span></td>
+											</tr>
+											<tr>
+												<td class="td__name">Lorem ipsum (hovered)</td>
+												<td>dolor sit amet</td>
+												<td>consectetur</td>
+												<td>adipiscing elit</td>
+												<td><span class="td__icons edit-icon"><i class="fas fa-pen pen-icon"></i><span></td>
+												<td><span class="td__icons delete-icon"><i class="fas fa-trash-alt trash-icon"></i><span></td>
+											</tr>
+											<tr>
+												<td class="td__name">Lorem ipsum</td>
+												<td>dolor sit amet</td>
+												<td>consectetur</td>
+												<td>adipiscing elit</td>
+												<td><span class="td__icons edit-icon"><i class="fas fa-pen pen-icon"></i><span></td>
+												<td><span class="td__icons delete-icon"><i class="fas fa-trash-alt trash-icon"></i><span></td>
+											</tr>
+											<tr>
+												<td class="td__name">Lorem ipsum</td>
+												<td>dolor sit amet</td>
+												<td>consectetur</td>
+												<td>adipiscing elit</td>
+												<td><span class="td__icons edit-icon"><i class="fas fa-pen pen-icon"></i><span></td>
+												<td><span class="td__icons delete-icon"><i class="fas fa-trash-alt trash-icon"></i><span></td>
+											</tr>
+											<tr>
+												<td class="td__name">Lorem ipsum</td>
+												<td>dolor sit amet</td>
+												<td>consectetur</td>
+												<td>adipiscing elit</td>
+												<td><span class="td__icons edit-icon"><i class="fas fa-pen pen-icon"></i><span></td>
+												<td><span class="td__icons delete-icon"><i class="fas fa-trash-alt trash-icon"></i><span></td>
+											</tr>
+											<tr>
+												<td class="td__name">Lorem ipsum</td>
+												<td>dolor sit amet</td>
+												<td>consectetur</td>
+												<td>adipiscing elit</td>
+												<td><span class="td__icons edit-icon"><i class="fas fa-pen pen-icon"></i><span></td>
+												<td><span class="td__icons delete-icon"><i class="fas fa-trash-alt trash-icon"></i><span></td>
+											</tr>
+										</table>
+									</div>
+									<div>	
+										<table class="section3__apps table">
+											<tr class="tr__title">
+												<th>Heading</th>
+												<th>Heading</th>
+												<th>Heading</th>
+												<th>Heading</th>
+												<th></th>
+												<th></th>
+											</tr>
+											<tr>
+												<td class="td__name">Lorem ipsum</td>
+												<td>dolor sit amet</td>
+												<td>consectetur</td>
+												<td>adipiscing elit</td>
+												<td><span class="td__icons edit-icon"><i class="fas fa-pen pen-icon"></i><span></td>
+												<td><span class="td__icons delete-icon"><i class="fas fa-trash-alt trash-icon"></i><span></td>
+											</tr>
+											<tr>
+												<td class="td__name">Lorem ipsum (hovered)</td>
+												<td>dolor sit amet</td>
+												<td>consectetur</td>
+												<td>adipiscing elit</td>
+												<td><span class="td__icons edit-icon"><i class="fas fa-pen pen-icon"></i><span></td>
+												<td><span class="td__icons delete-icon"><i class="fas fa-trash-alt trash-icon"></i><span></td>
+											</tr>
+											<tr>
+												<td class="td__name">Lorem ipsum</td>
+												<td>dolor sit amet</td>
+												<td>consectetur</td>
+												<td>adipiscing elit</td>
+												<td><span class="td__icons edit-icon"><i class="fas fa-pen pen-icon"></i><span></td>
+												<td><span class="td__icons delete-icon"><i class="fas fa-trash-alt trash-icon"></i><span></td>
+											</tr>
+											<tr>
+												<td class="td__name">Lorem ipsum</td>
+												<td>dolor sit amet</td>
+												<td>consectetur</td>
+												<td>adipiscing elit</td>
+												<td><span class="td__icons edit-icon"><i class="fas fa-pen pen-icon"></i><span></td>
+												<td><span class="td__icons delete-icon"><i class="fas fa-trash-alt trash-icon"></i><span></td>
+											</tr>
+											<tr>
+												<td class="td__name">Lorem ipsum</td>
+												<td>dolor sit amet</td>
+												<td>consectetur</td>
+												<td>adipiscing elit</td>
+												<td><span class="td__icons edit-icon"><i class="fas fa-pen pen-icon"></i><span></td>
+												<td><span class="td__icons delete-icon"><i class="fas fa-trash-alt trash-icon"></i><span></td>
+											</tr>
+											<tr>
+												<td class="td__name">Lorem ipsum</td>
+												<td>dolor sit amet</td>
+												<td>consectetur</td>
+												<td>adipiscing elit</td>
+												<td><span class="td__icons edit-icon"><i class="fas fa-pen pen-icon"></i><span></td>
+												<td><span class="td__icons delete-icon"><i class="fas fa-trash-alt trash-icon"></i><span></td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</main>
+	<footer>
+
+	</footer>
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+
+
+
+
+</html>
